@@ -1,0 +1,214 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HL7 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP11.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\SecurityServerLib" /I "..\stdobj" /I "..\ServerLib" /I "..\SecurityClient" /D "_NO_SECURITY_SERVER" /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "NO_DLL" /D "DB_SHARE" /FR"..\Temp\Debug\HL7/" /Fp"..\Temp\Debug\HL7/HL7.pch" /Yu"stdafx.h" /Fo"..\Temp\Debug\HL7/" /Fd"..\Temp\Debug\HL7/" /FD /GZ /c 
+"C:\InetPub\ftproot\Projects\HL7\App\Monitor.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\PACMonitor.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7PacOutThread.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\OutputThreads.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\ServerThread.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\ServerThreadInfo.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\ThreadListAccess.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\globals.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7NTService.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\Output.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\OutputConfig.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBFieldDef.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBMessageDef.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBRuleDef.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBSegmentDef.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBVersionDef.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBMsgEvent.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBNextMsgNum.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBPM_GetProcessAction.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBPM_RegisterProcess.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBPM_UnregisterProcess.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBProcMsg.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBOutMsgFormat.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBOutMSH.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBPACOut.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBServerConfig.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7MSAConfig.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7DBMsgSegFieldVal.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\SharedDB.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7FileDaemonThread.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7InputDaemon.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7InputDaemonInit.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7InputDaemonThread.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7SocketDaemonThread.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7Message.cpp"
+"C:\InetPub\ftproot\Projects\HL7\App\HL7MessageVerify.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP11.tmp" 
+Creating temporary file "C:\TEMP\RSP12.tmp" with contents
+[
+ServerLibD.lib stdobjD.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\Output\Debug/HL7.pdb" /debug /machine:I386 /out:"..\Output\Debug/HL7.exe" /pdbtype:sept 
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\Monitor.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\PACMonitor.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7PacOutThread.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\OutputThreads.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\ServerThread.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\ServerThreadInfo.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\ThreadListAccess.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\ConnectionException.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\globals.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\ProtocolObj.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7NTService.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7System.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\Output.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\OutputConfig.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\StdAfx.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBFieldDef.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBMessageDef.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBMsgSegDef.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBRuleDef.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBSegmentDef.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBVersionDef.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBMsgEvent.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBNextMsgNum.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBPM_GetProcessAction.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBPM_RegisterProcess.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBPM_UnregisterProcess.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBProcMsg.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7SPNextMsgNum.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBOutMsgFormat.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBOutMSH.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBPACOut.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBServerConfig.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7MessageConfig.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7MSAConfig.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBMsgSegFieldVal.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\SharedDB.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7FileDaemonThread.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7InputDaemon.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7InputDaemonInit.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7InputDaemonThread.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7SocketDaemonThread.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DataTypes.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7Message.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7MessageVerify.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7Object.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7Segment.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7IOSubSystem.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7IOThread.obj
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7.res
+]
+Creating command line "link.exe @C:\TEMP\RSP12.tmp"
+<h3>Output Window</h3>
+Compiling...
+Output.cpp
+*** Warning! _NO_SECURITY_SERVER defined - no security checking in this version
+C:\InetPub\ftproot\Projects\HL7\App\Output.cpp(118) : error C2664: 'Init' : cannot convert parameter 1 from 'const class CRegKey' to 'const char *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+Generating Code...
+Compiling...
+Monitor.cpp
+Generating Code...
+*** using "large packets" for HL7 response
+Compiling...
+HL7PacOutThread.cpp
+OutputThreads.cpp
+HL7DBFieldDef.cpp
+HL7DBMessageDef.cpp
+HL7DBRuleDef.cpp
+HL7DBSegmentDef.cpp
+HL7DBVersionDef.cpp
+HL7DBMsgEvent.cpp
+HL7DBNextMsgNum.cpp
+HL7DBProcMsg.cpp
+HL7DBOutMsgFormat.cpp
+HL7DBOutMSH.cpp
+HL7DBPACOut.cpp
+HL7DBServerConfig.cpp
+HL7MSAConfig.cpp
+HL7DBMsgSegFieldVal.cpp
+SharedDB.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+PACMonitor.cpp
+ServerThread.cpp
+ServerThreadInfo.cpp
+ThreadListAccess.cpp
+globals.cpp
+HL7NTService.cpp
+OutputConfig.cpp
+HL7DBPM_GetProcessAction.cpp
+HL7DBPM_RegisterProcess.cpp
+HL7DBPM_UnregisterProcess.cpp
+HL7FileDaemonThread.cpp
+HL7InputDaemon.cpp
+HL7InputDaemonInit.cpp
+HL7InputDaemonThread.cpp
+HL7SocketDaemonThread.cpp
+HL7Message.cpp
+HL7MessageVerify.cpp
+Error executing cl.exe.
+Creating temporary file "C:\TEMP\RSP13.tmp" with contents
+[
+/nologo /o"..\Output\Debug/HL7.bsc" 
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\StdAfx.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\Monitor.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\PACMonitor.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7PacOutThread.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\OutputThreads.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\ServerThread.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\ServerThreadInfo.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\ThreadListAccess.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\ConnectionException.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\globals.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\ProtocolObj.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7NTService.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7System.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\Output.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\OutputConfig.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBFieldDef.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBMessageDef.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBMsgSegDef.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBRuleDef.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBSegmentDef.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBVersionDef.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBMsgEvent.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBNextMsgNum.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBPM_GetProcessAction.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBPM_RegisterProcess.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBPM_UnregisterProcess.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBProcMsg.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7SPNextMsgNum.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBOutMsgFormat.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBOutMSH.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBPACOut.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBServerConfig.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7MessageConfig.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7MSAConfig.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DBMsgSegFieldVal.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\SharedDB.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7FileDaemonThread.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7InputDaemon.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7InputDaemonInit.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7InputDaemonThread.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7SocketDaemonThread.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7DataTypes.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7Message.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7MessageVerify.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7Object.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7Segment.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7IOSubSystem.sbr
+\InetPub\ftproot\Projects\HL7\Temp\Debug\HL7\HL7IOThread.sbr]
+Creating command line "bscmake.exe @C:\TEMP\RSP13.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HL7.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

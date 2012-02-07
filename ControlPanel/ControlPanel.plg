@@ -1,0 +1,185 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ServerLib - Win32 HL7 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP39E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I ".\\" /I "..\stdobj\include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "NO_DLL" /Fp"..\Temp\Release\SLIB/ServerLib.pch" /Yu"stdafx.h" /Fo"..\Temp\Release\SLIB/" /Fd"..\Temp\Release\SLIB/" /FD /c 
+"C:\dev\HL7\ServerLib\IOSubSystem.cpp"
+]
+Creating command line "cl.exe @C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP39E.tmp" 
+Creating temporary file "C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP39F.tmp" with contents
+[
+/nologo /out:"..\lib\Release\ServerLib.lib" 
+\dev\HL7\Temp\Release\SLIB\StdAfx.obj
+\dev\HL7\Temp\Release\SLIB\ThreadLoadBalancePool.obj
+\dev\HL7\Temp\Release\SLIB\ThreadObject.obj
+\dev\HL7\Temp\Release\SLIB\ThreadObjectPool.obj
+\dev\HL7\Temp\Release\SLIB\ThreadObjectPoolControlThread.obj
+\dev\HL7\Temp\Release\SLIB\LockObject.obj
+\dev\HL7\Temp\Release\SLIB\SystemControlObject.obj
+\dev\HL7\Temp\Release\SLIB\SystemObject.obj
+\dev\HL7\Temp\Release\SLIB\StateObject.obj
+\dev\HL7\Temp\Release\SLIB\SystemConfig.obj
+\dev\HL7\Temp\Release\SLIB\NTService.obj
+\dev\HL7\Temp\Release\SLIB\SubSystem.obj
+\dev\HL7\Temp\Release\SLIB\System.obj
+\dev\HL7\Temp\Release\SLIB\IOSubSystem.obj
+\dev\HL7\Temp\Release\SLIB\IOThread.obj
+\dev\HL7\Temp\Release\SLIB\DBDatabase.obj
+\dev\HL7\lib\release\stdobj.lib
+]
+Creating command line "link.exe -lib @C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP39F.tmp"
+<h3>Output Window</h3>
+Compiling...
+IOSubSystem.cpp
+Creating library...
+<h3>
+--------------------Configuration: HL7 - Win32 HL7 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP3A1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "SecurityServerLib" /I ".\\" /I "stdobj\include" /I "stdobj2\PACSDatabase" /I "stdobj2\StoredProcedure" /I "ServerLib" /D "NDEBUG" /D "NO_DLL" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "DB_SHARE" /Fp"Temp\Release\HL7/HL7.pch" /Yu"stdafx.h" /Fo"Temp\Release\HL7/" /Fd"Temp\Release\HL7/" /FD /c 
+"C:\dev\HL7\Monitor.cpp"
+"C:\dev\HL7\PACMonitor.cpp"
+"C:\dev\HL7\OutputThreads.cpp"
+"C:\dev\HL7\Output.cpp"
+"C:\dev\HL7\OutputConfig.cpp"
+]
+Creating command line "cl.exe @C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP3A1.tmp" 
+Creating temporary file "C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP3A2.tmp" with contents
+[
+ServerLib.lib stdobj.lib /nologo /subsystem:windows /incremental:no /pdb:"Output\Release/HL7.pdb" /debug /machine:I386 /out:"Output\Release/HL7.exe" /libpath:"lib\release" 
+.\Temp\Release\HL7\Monitor.obj
+.\Temp\Release\HL7\PACMonitor.obj
+.\Temp\Release\HL7\HL7PacOutThread.obj
+.\Temp\Release\HL7\OutputThreads.obj
+.\Temp\Release\HL7\ServerThread.obj
+.\Temp\Release\HL7\ServerThreadInfo.obj
+.\Temp\Release\HL7\ThreadListAccess.obj
+.\Temp\Release\HL7\ConnectionException.obj
+.\Temp\Release\HL7\globals.obj
+.\Temp\Release\HL7\ProtocolObj.obj
+.\Temp\Release\HL7\HL7NTService.obj
+.\Temp\Release\HL7\HL7System.obj
+.\Temp\Release\HL7\Output.obj
+.\Temp\Release\HL7\OutputConfig.obj
+.\Temp\Release\HL7\SecurityConnection.obj
+.\Temp\Release\HL7\StdAfx.obj
+.\Temp\Release\HL7\HL7DBFieldDef.obj
+.\Temp\Release\HL7\HL7DBMessageDef.obj
+.\Temp\Release\HL7\HL7DBMsgSegDef.obj
+.\Temp\Release\HL7\HL7DBRuleDef.obj
+.\Temp\Release\HL7\HL7DBSegmentDef.obj
+.\Temp\Release\HL7\HL7DBVersionDef.obj
+.\Temp\Release\HL7\HL7DBMsgEvent.obj
+.\Temp\Release\HL7\HL7DBNextMsgNum.obj
+.\Temp\Release\HL7\HL7DBPM_GetProcessAction.obj
+.\Temp\Release\HL7\HL7DBPM_RegisterProcess.obj
+.\Temp\Release\HL7\HL7DBPM_UnregisterProcess.obj
+.\Temp\Release\HL7\HL7DBProcMsg.obj
+.\Temp\Release\HL7\HL7SPNextMsgNum.obj
+.\Temp\Release\HL7\StoredProcedure.obj
+.\Temp\Release\HL7\HL7DBOutMsgFormat.obj
+.\Temp\Release\HL7\HL7DBOutMSH.obj
+.\Temp\Release\HL7\HL7DBPACOut.obj
+.\Temp\Release\HL7\HL7DBServerConfig.obj
+.\Temp\Release\HL7\HL7MessageConfig.obj
+.\Temp\Release\HL7\HL7MSAConfig.obj
+.\Temp\Release\HL7\HL7DBMsgSegFieldVal.obj
+.\Temp\Release\HL7\PACSDatabase.obj
+.\Temp\Release\HL7\SharedDB.obj
+.\Temp\Release\HL7\HL7FileDaemonThread.obj
+.\Temp\Release\HL7\HL7InputDaemon.obj
+.\Temp\Release\HL7\HL7InputDaemonInit.obj
+.\Temp\Release\HL7\HL7InputDaemonThread.obj
+.\Temp\Release\HL7\HL7SocketDaemonThread.obj
+.\Temp\Release\HL7\HL7DataTypes.obj
+.\Temp\Release\HL7\HL7Message.obj
+.\Temp\Release\HL7\HL7MessageVerify.obj
+.\Temp\Release\HL7\HL7Object.obj
+.\Temp\Release\HL7\HL7Segment.obj
+.\Temp\Release\HL7\HL7IOSubSystem.obj
+.\Temp\Release\HL7\HL7IOThread.obj
+.\Temp\Release\HL7\HL7.res
+.\lib\Release\ServerLib.lib
+.\lib\release\stdobj.lib
+.\lib\Release\SecurityServerLib.lib
+]
+Creating command line "link.exe @C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP3A2.tmp"
+<h3>Output Window</h3>
+Compiling...
+Monitor.cpp
+PACMonitor.cpp
+*** using "large packets" for HL7 response
+OutputThreads.cpp
+Output.cpp
+OutputConfig.cpp
+Generating Code...
+Linking...
+<h3>
+--------------------Configuration: ControlPanel - Win32 HL7 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"..\Temp\Release\CP/ControlPanel.res" /d "NDEBUG" /d "_AFXDLL" "C:\dev\HL7\ControlPanel\ControlPanel.rc"" 
+Creating temporary file "C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP3A5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\stdobj\include" /I ".\\" /I "..\\" /I "..\ServerLib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /D "NO_DLL" /Fp"..\Temp\Release\CP/ControlPanel.pch" /Yu"stdafx.h" /Fo"..\Temp\Release\CP/" /Fd"..\Temp\Release\CP/" /FD /c 
+"C:\dev\HL7\ControlPanel\ControlPanel.cpp"
+"C:\dev\HL7\ControlPanel\MainPropSheet.cpp"
+"C:\dev\HL7\OutputConfig.cpp"
+"C:\dev\HL7\ControlPanel\PropPageDebug.cpp"
+"C:\dev\HL7\ControlPanel\PropPageInput.cpp"
+"C:\dev\HL7\ControlPanel\PropPageMain.cpp"
+"C:\dev\HL7\ControlPanel\PropPageSecurity.cpp"
+]
+Creating command line "cl.exe @C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP3A5.tmp" 
+Creating temporary file "C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP3A6.tmp" with contents
+[
+stdobj.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"..\Output\Release/HL7.pdb" /machine:I386 /def:".\ControlPanel.def" /out:"..\Output\Release/HL7.cpl" /implib:"..\Output\Release/HL7.lib" /libpath:"..\lib\release" 
+\dev\HL7\Temp\Release\CP\ChooseFileBtn.obj
+\dev\HL7\Temp\Release\CP\ClientConfigDlg.obj
+\dev\HL7\Temp\Release\CP\ControlPanel.obj
+\dev\HL7\Temp\Release\CP\HL7InputDaemonInit.obj
+\dev\HL7\Temp\Release\CP\MainPropSheet.obj
+\dev\HL7\Temp\Release\CP\MonitorConfigDlg.obj
+\dev\HL7\Temp\Release\CP\OutputConfig.obj
+\dev\HL7\Temp\Release\CP\PropFileDlg.obj
+\dev\HL7\Temp\Release\CP\PropPageDebug.obj
+\dev\HL7\Temp\Release\CP\PropPageInput.obj
+\dev\HL7\Temp\Release\CP\PropPageMain.obj
+\dev\HL7\Temp\Release\CP\PropPageSecurity.obj
+\dev\HL7\Temp\Release\CP\PropSockDlg.obj
+\dev\HL7\Temp\Release\CP\SelectNewModuleTypeDlg.obj
+\dev\HL7\Temp\Release\CP\StdAfx.obj
+\dev\HL7\Temp\Release\CP\ControlPanel.res
+\dev\HL7\lib\release\stdobj.lib
+]
+Creating command line "link.exe @C:\WINNT\Profiles\RSCHON~1\LOCALS~1\Temp\RSP3A6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ControlPanel.cpp
+MainPropSheet.cpp
+OutputConfig.cpp
+PropPageDebug.cpp
+PropPageInput.cpp
+PropPageMain.cpp
+PropPageSecurity.cpp
+Generating Code...
+Linking...
+   Creating library ..\Output\Release/HL7.lib and object ..\Output\Release/HL7.exp
+HL7.exp : warning LNK4070: /OUT:ControlPanel.cpl directive in .EXP differs from output filename "..\Output\Release/HL7.cpl"; ignoring directive
+
+
+
+<h3>Results</h3>
+HL7.cpl - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

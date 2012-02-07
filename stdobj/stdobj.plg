@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: stdobj - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP5E2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /D "NO_DLL" /FR"..\Temp\Debug\stdobj/" /Fp"..\Temp\Debug\stdobj/stdobj.pch" /Yu"stdafx.h" /Fo"..\Temp\Debug\stdobj/" /Fd"..\Temp\Debug\stdobj/" /FD /GZ /c 
+"C:\dev\stdobj\SmallSocket.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP5E2.tmp" 
+Creating temporary file "C:\TEMP\RSP5E3.tmp" with contents
+[
+/nologo /out:"..\lib\stdobjD.lib" 
+\dev\Temp\Debug\stdobj\regkey.obj
+\dev\Temp\Debug\stdobj\regkeyinfo.obj
+\dev\Temp\Debug\stdobj\regresult.obj
+\dev\Temp\Debug\stdobj\regvalue.obj
+\dev\Temp\Debug\stdobj\regvaluemultisz.obj
+\dev\Temp\Debug\stdobj\LockedSocket.obj
+\dev\Temp\Debug\stdobj\SmallSocket.obj
+\dev\Temp\Debug\stdobj\SmallSocketFile.obj
+\dev\Temp\Debug\stdobj\ReadLock.obj
+\dev\Temp\Debug\stdobj\ReadWriteObject.obj
+\dev\Temp\Debug\stdobj\WriteLock.obj
+\dev\Temp\Debug\stdobj\BrowseForFolder.obj
+\dev\Temp\Debug\stdobj\folder_dialog.obj
+\dev\Temp\Debug\stdobj\ExecuteApp.obj
+\dev\Temp\Debug\stdobj\Process.obj
+\dev\Temp\Debug\stdobj\ServiceStatus.obj
+\dev\Temp\Debug\stdobj\ThreadPool.obj
+\dev\Temp\Debug\stdobj\CmdLine.obj
+\dev\Temp\Debug\stdobj\DelimFile.obj
+\dev\Temp\Debug\stdobj\IPAddress.obj
+\dev\Temp\Debug\stdobj\PathString.obj
+\dev\Temp\Debug\stdobj\SettingsFile.obj
+\dev\Temp\Debug\stdobj\WordWrap.obj
+\dev\Temp\Debug\stdobj\PACSDatabase.obj
+\dev\Temp\Debug\stdobj\StoredProcedure.obj
+\dev\Temp\Debug\stdobj\NetConnection.obj
+\dev\Temp\Debug\stdobj\NetFileInfo.obj
+\dev\Temp\Debug\stdobj\Directory.obj
+\dev\Temp\Debug\stdobj\PackDirectory.obj
+\dev\Temp\Debug\stdobj\Timer.obj
+\dev\Temp\Debug\stdobj\WaitableTimer.obj
+\dev\Temp\Debug\stdobj\DateString.obj
+\dev\Temp\Debug\stdobj\DebugPrintf.obj
+\dev\Temp\Debug\stdobj\DlgItemGroup.obj
+\dev\Temp\Debug\stdobj\FileNotifyInformation.obj
+\dev\Temp\Debug\stdobj\Handle.obj
+\dev\Temp\Debug\stdobj\InternetTime.obj
+\dev\Temp\Debug\stdobj\LoadString.obj
+\dev\Temp\Debug\stdobj\LockedResource.obj
+\dev\Temp\Debug\stdobj\MiniEncrypt.obj
+\dev\Temp\Debug\stdobj\PlatformInfo.obj
+\dev\Temp\Debug\stdobj\QuickMail.obj
+\dev\Temp\Debug\stdobj\StdAfx.obj
+]
+Creating command line "link.exe -lib @C:\TEMP\RSP5E3.tmp"
+<h3>Output Window</h3>
+Compiling...
+SmallSocket.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+stdobjD.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

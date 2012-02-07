@@ -1,0 +1,5 @@
+HL7 Interface
+
+This project is an HL7 protocol converter. It logs HL7 messages, converts them to various forms, and logs them into a database.
+It was a Windows 2000 service and is written in Visual C++/MFC.
+It worked well in its day.
